@@ -34,6 +34,9 @@ This repository presents a physics-based Li-ion battery degradation model integr
 ### Capacity Fade at 0.1C
 ![Capacity Fade at 0.1C](Capacity%20Fade%20Figures/capacity_fade_01C.png)
 
+### Oxygen Evolution Over Cycles
+![Oxygen Evolution](Capacity%20Fade%20Figures/Oxygen%20Evolution.png)
+
 ## Insights
 
 - Higher **temperature** and **C-rate** accelerate oxygen release
