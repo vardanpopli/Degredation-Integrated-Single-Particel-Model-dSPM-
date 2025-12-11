@@ -24,7 +24,9 @@ These phenomena influence cyclability, voltage hysteresis, thermal behavior, and
 The proposed **dSPM** augments the classical SPM with explicit degradation mechanisms and thermal coupling to predict these experimentally observed effects.
 
 
-### 3.2 Degradation Sub-Models
+### 3.2 Degradation Modes
+
+<img src="Figures/Degredations.png" width="650"/>
 
 #### A. Oxygen Evolution  
 
@@ -57,7 +59,7 @@ This mechanism explains:
 ## 4. Simulation and Performance Analysis
 
 ### 4.1 Stimulation Plots 
-**Figure: Stimulation.png**
+<img src="Figures/Stimulation.png" width="700"/>
 
 This figure presents the predicted dynamic voltage, concentration evolution, and internal degradation trends under CC–CV cycling.  
 It validates that the dSPM reproduces time-domain responses similar to experimental behavior.
@@ -81,7 +83,7 @@ Key observations:
 
 
 ### 4.3 Structural Transformation  
-**Figure: Shrinking Core.png**
+<img src="Figures/Shrinking Core.png" width="600"/>
 
 The surface-to-core transformation is modeled through a time-dependent reduction in active radius, explaining:
 
@@ -91,7 +93,7 @@ The surface-to-core transformation is modeled through a time-dependent reduction
 
 
 ### 4.4 Oxygen Evolution and Safety Considerations  
-**Figure: Oxygen Evolution.png**
+<img src="Figures/Oxygen Evolution.png" width="600"/>
 
 The oxygen evolution figure shows that oxygen release is strongly linked to:
 
