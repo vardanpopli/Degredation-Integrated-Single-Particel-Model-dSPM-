@@ -7,7 +7,7 @@ The model incorporates oxygen evolution, shrinking-core phase transition, passiv
 The modeling framework and figures are based on the work presented at the **International Meeting of the Battery Research Society (IMBRS), Hilton Bangalore, Dec 06–09, 2025**.
 
 
-## 2. Scientific Background
+## 2. Background
 
 Ni-rich layered oxides such as **LiNi₀.₈Mn₀.₁Co₀.₁O₂ (NMC811)** enable high specific energy but are prone to degradation at elevated voltages and temperatures.  
 Primary degradation processes include:
@@ -27,7 +27,6 @@ The proposed **dSPM** augments the classical SPM with explicit degradation mecha
 ### 3.2 Degradation Sub-Models
 
 #### A. Oxygen Evolution  
-**Figure: Oxygen Evolution.png**
 
 Oxygen release occurs when high SOC or high voltage destabilizes the layered lattice.  
 Consequences include:
@@ -42,7 +41,6 @@ The model introduces an oxygen evolution rate term that directly impacts capacit
 
 
 #### B. Shrinking-Core Structural Reconstruction  
-**Figure: Shrinking Core.png**
 
 As cycling progresses, the particle transitions from:
 
@@ -54,30 +52,6 @@ This mechanism explains:
 - Loss of active material  
 - Higher overpotential  
 - Reduced lithium diffusivity  
-
-
-#### C. Surface Passivation and Degradation Layer Growth  
-**Figure: Degredations.png**
-
-The degradation figure illustrates several simultaneous mechanisms:
-
-- Passivation layer growth  
-- LAM  
-- LLI  
-- Gas evolution and thermal runaway precursors  
-
-This contributes to rising impedance and voltage suppression.
-
-### 3.3 Thermal Coupling (T-dSPM)
-
-Temperature affects:
-
-- Diffusivity  
-- Reaction kinetics  
-- Oxygen evolution rate  
-- Phase transition extent  
-
-Cycling at **45°C** significantly accelerates degradation, as reflected in the model predictions.
 
 
 ## 4. Simulation and Performance Analysis
@@ -105,20 +79,8 @@ Key observations:
 - Predicted fade trends closely match expected degradation pathways.
 
 
-### 4.3 Degradation Mode Interactions
-**Figure: Degredations.png**
 
-This combined schematic highlights:
-
-- Onset of degradation  
-- Structural breakdown  
-- Loss of lithium inventory  
-- Rapid impedance rise at elevated cycling conditions  
-
-These processes are incorporated jointly into the dSPM framework.
-
-
-### 4.4 Structural Transformation  
+### 4.3 Structural Transformation  
 **Figure: Shrinking Core.png**
 
 The surface-to-core transformation is modeled through a time-dependent reduction in active radius, explaining:
@@ -128,7 +90,7 @@ The surface-to-core transformation is modeled through a time-dependent reduction
 - Decline in usable capacity  
 
 
-### 4.5 Oxygen Evolution and Safety Considerations  
+### 4.4 Oxygen Evolution and Safety Considerations  
 **Figure: Oxygen Evolution.png**
 
 The oxygen evolution figure shows that oxygen release is strongly linked to:
