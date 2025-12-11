@@ -64,22 +64,10 @@ This mechanism explains:
 This figure presents the predicted dynamic voltage, concentration evolution, and internal degradation trends under CC–CV cycling.  
 It validates that the dSPM reproduces time-domain responses similar to experimental behavior.
 
-
-### 4.2 Capacity Fade Across Cycling
-**Figure: Capacity Fade.png**
-
-This figure shows voltage–capacity curves for:
-
+Key Observations are done over:-
 - **0.5C at 25°C**  
 - **1C at 25°C**  
 - **1C at 45°C**
-
-Key observations:
-
-- High-temperature cycling triggers early rollover.  
-- Higher C-rates reduce accessible capacity.  
-- Predicted fade trends closely match expected degradation pathways.
-
 
 
 ### 4.3 Structural Transformation  
