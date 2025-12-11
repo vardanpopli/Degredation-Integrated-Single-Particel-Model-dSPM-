@@ -106,4 +106,9 @@ The dSPM framework provides a computationally tractable yet physically rich meth
 
 By integrating degradation directly into particle-scale transport equations, the model advances predictive understanding of high-energy cathode aging.
 
+## 9. Acknowledgements
+
+The work was carried out at the **Fluids & Interfaces for Next-generation Devices (FIND) Laboratory**,  
+Department of Chemical Engineering & Technology, IIT BHU.
+
 
